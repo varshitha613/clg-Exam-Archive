@@ -1,0 +1,81 @@
+String:A string is a sequence of characters.Python strings are "immutable" which means they cannot be changed after they are created.
+String Operations:
+
+1.count():
+	Returns the number of times a specified value occurs in a string.
+        Example:
+             s = "hello"
+  	     print(s.count("l"))
+           output:2
+
+2.index():
+	Searches the string for a specified value and returns the position of where it was found.
+        Example:
+   	 	s = "world"
+		print(s.index("l"))
+              output:3
+3.lower():	
+	Converts all characters in the string to lower case.
+	Example:
+ 		s = "HeLlO"
+                print(s.lower())
+	     output:hello
+4.upper():
+	Converts all characters in the string to lower case.
+	Example:
+		s = "HeLlO"
+                print(s.upper())
+	     output:HELLO		
+5.islower():
+	Returns True if all characters in the string are lower case.
+	Example:
+		s = "hello"
+		if(s.islower()):
+		      print("True")
+		else:
+		      print("False")
+
+		output:True
+6.isupper():
+	Returns True if all characters in the string are upper case.
+	Example:
+		s = "HELLO"
+		if(s.isupper())
+			print("True")
+		else:
+			print("False")
+		output:True
+7.swpacase():
+	Swaps cases, lower case becomes upper case and vice versa.
+	Example:
+		s = "HeLlO"
+		print(s.swapcase())
+		
+		output:hElLo
+8.replace():
+	Returns a string where a specified value is replaced with a specified value.
+	Example:
+		s = "Hello World"
+		print(s.replace("l","g"))
+		
+		output:Heggo Worgd
+9.isalpha():
+	Returns True if all characters in the string are in the alphabet.
+	Example:
+		s = "Ab2e"
+		if(s.isalpha()):
+			print("True")
+		else:
+			print("False")
+
+		output:False
+10.isdigit():
+	Returns True if all characters in the string are digits.
+	Example:
+		s = "2345"
+		if(s.isdigit()):
+			print("True")
+		else:
+			print("False")
+
+		output:True

@@ -1,0 +1,145 @@
+Operators: Operators are used to perform operations on variables and values. Python divides the operators in the following groups:
+1.Arithmetic operators
+2.Assignment operators
+3.Comparison operators
+4.Logical operators
+5.Identity operators
+6.Membership operators
+7.Bitwise operators
+1.Arithmetic Operators: Arithmetic operators are used with numeric values to perform common mathematical operations:
+Example
+Addition
+x + y
+Subtraction
+x - y
+Multiplication
+x * y
+Division
+x / y
+Modulus
+x % y
+Exponentiation
+x ** y
+Floor division
+x // y
+
+2.Assignment Operators: Assignment operators are used to assign values to variables
+Operator
+Example
+Same As
+x = 5
+x = 5
+
+x += 3
+x = x + 3
+
+x -= 3
+x = x - 3
+
+x *= 3
+x = x * 3
+
+x /= 3
+x = x / 3
+
+x %= 3
+x = x % 3
+
+x //= 3
+x = x // 3
+
+x **= 3
+x = x ** 3
+
+x &= 3
+x = x & 3
+
+3.Comparison Operators: Comparison operators are used to compare two values:
+Example
+Equal
+x == y
+Not equal
+x != y
+Greater than
+x > y
+Less than
+x < y
+Greater than or equal to
+x >= y
+Less than or equal to
+x <= y
+
+4.Logical Operators: Logical operators are used to combine conditional statements:
+Example
+Returns True if both statements are true
+x < 5 and  x < 10
+Returns True if one of the statements is true
+x < 5 or x < 4
+Reverse the result, returns False if the result is true
+not(x < 5 and x < 10)
+
+5.Identity Operators: Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+Example
+Returns true if both variables are the same object
+x is y
+Returns true if both variables are not the same object
+x is not y
+
+6.Membership Operators: Membership operators are used to test if a sequence is presented in an object:
+Example
+in 
+Returns True if a sequence with the specified value is present in the object
+x in y
+not in
+Returns True if a sequence with the specified value is not present in the object
+x not in y
+
+7.Bitwise Operators: Bitwise operators are used to compare (binary) numbers:
+Exmaple:
+& 
+AND
+Sets each bit to 1 if both bits are 1
+|
+OR
+Sets each bit to 1 if one of two bits is 1
+ ^
+XOR
+Sets each bit to 1 if only one of two bits is 1
+~ 
+NOT
+Inverts all the bits
+<<
+Zero fill left shift
+Shift left by pushing zeros in from the right and let the leftmost bits fall off
+>>
+Signed right shift
+Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+
+Data Types:
+1.Integer: Holds the integer values.
+  Example:
+       x = 2(int)
+2.Float: A positive or negative number with a decimal.
+  Example:
+       x = 2.5(float)
+3.Complex: Represented by a real and imaginary number component.
+  Example:
+       x = 2+3i(complex)
+4.String: Holds sequence of characters that can be indexed.
+  Example:
+       s = "Hello" (str)
+5.List: Holds collections of items of difference datatypes.List are mutable.
+  Example:
+       li = [23,"ram",3.2]
+6.Tuple: Holds collections of items of different datatypes.Tuple are immutable.
+  Example:
+       tu = (23,22,"ram")
+7.Dictionary: A collection of elements each comprised of a key-value pair.
+  Example:
+       di = {"pencils":3,"pens":5,"erasers":3}
+8.sets: A collection of elements that is unordered and doesn't contain duplicates.
+  Example:
+       sets = {23,12,45}
+9.Bool: Can be a value of True or False.
+  Example:
+      bo = True

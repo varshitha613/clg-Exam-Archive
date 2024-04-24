@@ -1,0 +1,28 @@
+String:A string is a sequence of characters.Python strings are "immutable" which means they cannot be changed after they are created.
+String Operations:
+
+1.count():
+	Returns the number of times a specified value occurs in a string.
+        Example:
+             s = "hello"
+  	     print(s.count("l"))
+           output:2
+
+2.index():
+	Searches the string for a specified value and returns the position of where it was found.
+        Example:
+   	 	s = "world"
+		print(s.index("l"))
+              output:3
+3.lower():	
+	Converts all characters in the string to lower case
+	Example:
+ 		s = "HeLlO"
+                print(s.lower())
+	     output:hello
+4.upper():
+	Converts all characters in the string to lower case
+	Example:
+		s = "HeLlO"
+                print(s.upper())
+	     output:HELLO		

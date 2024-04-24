@@ -1,0 +1,14 @@
+The assignment operator, denoted by the "=" symbol is the operator that is used to assign values to variables in Python.
+Example:
+        x = 5
+        5 is assigned to x variable
+        
+        x = 2
+        x*=5 
+        It is same as x = x*5 => x = 2*5 = 10
+        so, 10 is assigned to x
+       
+        x = 2
+        x+=5
+        It is same as x = x+5 => x = 2+5 = 7
+        so, 7 is assigned to x	

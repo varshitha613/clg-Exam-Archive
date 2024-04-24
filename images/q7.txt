@@ -1,0 +1,34 @@
+def split_and_join(string):
+    # Split the string into a list of words
+    words = string.split()
+
+    # Join the words using hyphens as separators
+    new_string = "-".join(words)
+
+    return new_string
+
+
+def trace_birthday(birthday_dict, name):
+    # Check if the name exists in the dictionary
+    if name in birthday_dict:
+        birthday = birthday_dict[name]
+        print(f"{name}'s birthday is on {birthday}.")
+    else:
+        print(f"Sorry, we don't have birthday information for {name}.")
+
+
+# Example usage
+birthday_dict = {
+    "John": "March 15, 1990",
+    "Emily": "November 8, 1995",
+    "Michael": "July 4, 1988",
+}
+
+# Split and join example
+string = "Hello world! How are you?"
+new_string = split_and_join(string)
+print(new_string)
+
+# Trace birthday example
+name = "Emily"
+trace_birthday(birthday_dict, name)

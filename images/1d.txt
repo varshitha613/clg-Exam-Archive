@@ -1,0 +1,5 @@
+Recursion                                  Iteration
+1.Functons calls itself                    1.A set of instructions repeteadly executed
+2.Through base case where there            2.when termination condition for the iterator 
+  will be no function call                     to be satisfied  
+3.Samller code size                        3.Larger code size.             

@@ -1,0 +1,12 @@
+There are Two Types of Comments:
+1.Single Line Comments:
+    Single Line Comments are used when single line as to be commented.
+    Example:
+         #this is single line comment.
+2.Multiple Line Commands:
+    Multi Line Comments are used when multiple lines as to be commented.
+    Example:
+        '''Thrible quates are
+           used to comment 
+           multiple lines'''
+   

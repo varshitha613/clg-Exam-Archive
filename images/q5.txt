@@ -1,0 +1,15 @@
+'''
+Creating a Module..
+calc.py(module)
+
+def add(a,b):
+  return (a+b)
+def sub(a,b):
+  return(a-b)
+'''
+#Importing above created user defined module to access add and sub methods..
+from calc import add,sub
+addition = add(2,3)
+subtraction = sub(2,3)
+print("Addition =",addition)
+print("Subtraction =",subtraction)
