@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('purple.avif');
+              background-repeat: no-repeat;
+              background-size: cover ;
+            }
+            </style>
+        <link rel="stylesheet" href="../css/LAC2020mid1css.css">
+        <link rel="icon" href="../images/smartlearn.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>LAC</title>
+    </head>
+    <body>
+        <div class="top">
+            <nav>
+                <img src="../images/smartlearn.png" alt="" class="logo">
+                <ul>
+                    <li><a href="department.html">Home</a></li>
+                    <li><a href="#">PDFs</a></li>
+                    <li><a href="query.html" target="_blank">Queries</a></li>
+                </ul>
+                <img src="../images/profileicon.png" alt="" class="profile" onclick="togglemenu()">
+                <div class="sub-menu-wrap" id="submenu">
+                    <div class="sub-menu">
+                        <a href="login.html" class="sub-menu-link">
+                            <p>Logout</p>
+                            <span>></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <h2 class="t">Linear Algebra & Calculus</h2>
+        <h2 class="t">2022 SEM Question Paper</h2>
+        <div class="paperbox">
+            <div class="box">
+        <img src="../images/lacs122.jpeg" alt="" class="paper"><br></div>
+        <button onclick="opened()" class="answers">Answers</button>
+        </div>
+        <div class="solution" id="solu" style="display: none;">
+            <h2>Answers</h2>
+            <label for="">Question-1a:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="a1"><br>
+            <label for="">Question-1b:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="b1"><br>
+            <label for="">Question-1c:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="c1"><br>
+            <label for="">Question-1d:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="d1"><br>
+            <label for="">Question-1e:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="e1"><br>
+            <label for="">Question-2:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="q2"><br>
+            <label for="">Question-3:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="q3"><br>
+            <label for="">Question-4:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="q4"><br>
+            <label for="">Question-5:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="q5"><br>
+            <label for="">Question-6:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="q6"><br>
+            <label for="">Question-7:</label><a href="#" class="ref">Reference</a><br>
+            <embed src="" id="q7"><br>
+        </div>
+        <script>
+
+            function togglemenu(){
+                let submenu = document.getElementById("submenu");
+                submenu.classList.toggle("open-menu");
+            }
+
+
+             function opened(){
+                var an = document.getElementById("solu");
+                if(an.style.display == 'none'){
+                    an.style.display = 'block';
+                }
+                else{
+                    an.style.display = 'none';
+                }
+            }
+        </script>
+
+        </body>
